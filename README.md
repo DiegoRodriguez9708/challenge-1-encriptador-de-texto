@@ -1,4 +1,5 @@
 # Encriptador de Texto
+Proyectyo desarrollado por: Diego Rodriguez 2024. Challenge uno  Principiante en Programación
 
 Este proyecto es un encriptador y desencriptador de texto simple construido con HTML, CSS y JavaScript. 
 La aplicación permite a los usuarios encriptar y desencriptar mensajes de texto utilizando un conjunto específico de reglas. 
