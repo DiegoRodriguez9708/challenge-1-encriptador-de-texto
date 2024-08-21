@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header class="header"> 
+        <img class="logo" alt="Logo de Alura"src="/assets/Logo.png">
+    </header>
+    <main>
+     
+        <section class="encriptar" >
+            <textarea class="text_area" id="" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="aviso">
+                <img class ="exclamacion" alt="Logo Exclamacion" src="/assets/icon.png">
+                <h6 class="informacion"src="/assets/icon.png"> Solo letras minúsculas y sin acentos </h6>
+            </div>
+            <div class="botones"> 
+                <button class="btn_encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn_desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class ="desencriptar">
+            <textarea class="mensaje" cols="30" rows="10" placeholder="Ningún mensaje fue encontrado"></textarea>
+            <div>
+                <button class="copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+     
+    </main>
+    <footer class="footer">
+        <p> Desarrollado por Diego Rodriguez 2024.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
